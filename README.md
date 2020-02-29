@@ -1,6 +1,7 @@
 <img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
 
-# Effect of Trees on Air-Quality in Amsterdam Neighbourhoods
+# Pollution in Amsterdam 
+## A focus on 2 neighbourhoods
 *[Eva Doñaque & Sreelatha Chunduri ]*
 
 *[Data Analytics, Part-time 2020, Amsterdam]*
@@ -16,20 +17,20 @@
 
 
 ## Project Description
-Our project focuses on the effect of trees on air-quality. We would like to study the density of the tress and its relationship with air-quality. We would like to measure the air-quality in 8 neighbourhoods of Amsterdam. They include:
-1. Centrum
-2. De Pijp
-3. Overtoom
-4. De Baarsjes
-5. Bos en Lommer
-6. Haarlemmerweg
-7. Westerpark
-8. Van Diementstraat
+Our project focuses on the effect of pollutants on people in different neighbourhoods of Amsterdam. Elevated concentrations of air pollutants, such as sulphur dioxide (SO2), nitrogen dioxide (NO2) and particulate matter (PM10 and PM2.5) have adverse effects on human health. For our current study we chose to study the trend of 3 pollutants that includes NO2, PM2.5 and PM10 in Amsterdam.
+
+We initially identified the following 4 neighbourhoods where we had data of the 3 pollutants from 2012 through 2019.
+1. Einsteinweg - A10 West
+2. Van Diemenstraat
+3. Vondelpark
+4. Stadhouderskade
+
+After an initail data analysis we chose Einsteinweg and Vondelpark to study deeper and understand the effects of pollutants and the associated trends.
 
 
 ## Questions & Hypotheses
-Q1. Is the number of trees in different Amsterdam areas negatively related to the air pollution of the area? 
-Q2. Is the number of inhabitants in different Amsterdam areas positively related to the air pollution of the area?
+Q1. Is there a decrease in pollution from 2012 through 2019 because of new policies?
+Q2. 
 
 Hypothesis: Trees improve air-quality of a neighbourhood. 
 
