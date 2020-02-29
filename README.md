@@ -33,31 +33,42 @@ Q1. Is there a decrease in pollution from 2012 through 2019 because of new polic
 Q2. Is one neighbourhood's pollution level better than the other neighbourhood?
 
 Hypothesis: 
-Traffic (cars and bicycles) and the associated policies linked to increase in . 
+1. Traffic (all types of vehicles inclusing bicycles) emissions are directly propotional to the air quality and increase in hybrid cars and assocaited policies have reduced the pollution.
+2. The increase in green spaces helps in the improvement in the air quality of the neighbourhoods.
+
+Findings:
+Our findings have proven that our first hypothesis is False and the second one is True.
 
 ## Dataset
 What dataset (or datasets) did you use? What is the source of your data? Provide links to the data if available and describe the data briefly.
 
 Our dataset includes the following:
-1. CSV files of around 280,000 trees in Amsterdam Neighbourhood - https://maps.amsterdam.nl/open_geodata/
-2. CSV file of Amsterdam Neighbourhoods.
-3. Air-quality data of Amsterdam Neighbourhoods - https://www.luchtmeetnet.nl/download
+1. CSV files of pollutants measured in microgram/m3 for all the areas in Netherlands from 2012 through 2019- https://www.luchtmeetnet.nl/rapportages
+2. CSV file of the total number of vehicles (all types) in Amsterdam from 2000 through 2019 - https://www.ois.amsterdam.nl/downloads/xlsx/2019_jaarboek_411.xlsx
 
 
 ## Database
-What is the structure of your database? Have you created more than one table and if yes, how are they related to each other? Include a drawing or computer-generated image of the ERD (Entity Relationship Diagram) of your database.
+
+Our database includes CSV files seperated by semicolon in some cases and colon in other cases. The data includes the pollutant information from the entire NL. We cleaned, filtered and merged the data using pandas and identified 4 common enighbourhoods to conduct our analysis. Among the 4 neighbourhoods we chose 2 neighbourhoods to do in-depth analysis.
+
+
 
 ## Workflow
-Outline the workflow you used in your project. What are the steps you went through?
 
-## Organization
-How did you organize your work? Did you use any tools like a kanban board?
+1. Download the CSV files from the online database for the 3 pollutants from 2012 through 2019. The pollutants include NO2, PM2.5 and PM10. There is no pollution data before the year 2012 and after the year 2019. So, we chose that as our starting and ending years.
+2. Import and Clean the information from the database and put it in a dataframe.
+3. Rename the columns and rows and delete all the unwanted neighbourhoods. Only pick Amsterdam neighbourhoods among a big list of all the neighbourhoods in NL.
+4. After filtering only the Amsterdam neighbourhoods, identify the neighbourhoods that are common in all the 3 pollutants. Delete the remaining neighbourhoods.
+5. Now using different dataframe applications (Pandas) analyze the data.
+6. Download the total number of vehicles from 2000 through 2019 from Amsterdam database. Import, clean and analyze the data to see a trend (increase or decrease) of the vehicles in Amsterdam.
+7. Conduct research on the bicycle usage and green areas in the 2 chosen neighbourhoods of Amsterdam.
+8. Identify a corelation between  the pollutants, green spaces, and vehicles and prove/disprove the hypothesis.
+
 
 What does your repository look like? Explain your folder and file structure.
 
 ## Links
-Include relevant links (that point to google drive or data sources) to your repository, slides, data, database, ERD, and kanban board. Feel free to include any other links associated with your project.
 
 [Repository](https://github.com/)  
 [Slides](https://slides.com/)  
-[Trello](https://trello.com/en)  
+
