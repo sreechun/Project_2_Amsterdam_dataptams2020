@@ -30,9 +30,10 @@ After an initail data analysis we chose Einsteinweg and Vondelpark to study deep
 
 ## Questions & Hypotheses
 Q1. Is there a decrease in pollution from 2012 through 2019 because of new policies?
-Q2. 
+Q2. Is one neighbourhood's pollution level better than the other neighbourhood?
 
-Hypothesis: Trees improve air-quality of a neighbourhood. 
+Hypothesis: 
+Traffic (cars and bicycles) and the associated policies linked to increase in . 
 
 ## Dataset
 What dataset (or datasets) did you use? What is the source of your data? Provide links to the data if available and describe the data briefly.
